@@ -1,4 +1,5 @@
 puts "Project name?"
+puts `open https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 name = gets.chomp
 puts `mkdir ../#{name}`
 puts `mkdir ../#{name}/lib ../#{name}/spec`
